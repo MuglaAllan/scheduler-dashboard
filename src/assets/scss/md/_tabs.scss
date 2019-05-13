@@ -1,0 +1,146 @@
+.md-tabs-navigation{
+  @include shadow-big();
+  margin: -35px 0 0;
+  border-radius: $border-radius-base;
+  padding: $padding-base $padding-base $padding-base 75px;
+  background-color: $gray-color;
+
+  .md-icon-label .md-button-content{
+    flex-direction: row;
+  }
+
+  & + .md-tabs-content{
+    .md-checkbox.md-checked .md-checkbox-container:after{
+      top: 0px;
+      left: 5px;
+    }
+  }
+
+  .md-button,
+  .md-button:hover,
+  .md-button:focus,
+  .md-button:active {
+    background-color: transparent !important;
+    box-shadow: none;
+  }
+
+  .md-active,
+  .md-active:hover,
+  .md-active:focus{
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    box-shadow: none;
+  }
+
+  .md-icon-label{
+    height: auto;
+    border-radius: 3px;
+    line-height: 24px;
+    text-transform: uppercase;
+    font-size: 12px;
+
+    &:not(:last-child){
+      margin-right: 5px;
+    }
+
+    .md-tab-icon + .md-tab-label{
+      margin-top: 1px;
+      margin-left: 5px;
+    }
+
+    .md-ripple{
+      padding: 10px 15px;
+    }
+  }
+}
+
+.md-tabs-indicator{
+  display: none;
+}
+
+.md-nav-tabs-title{
+  position: absolute;
+  z-index: 9999;
+  top: 6px;
+  color: white;
+  font-size: initial;
+  margin-left: 15px;
+}
+
+.md-tab{
+  padding: 15px 0 0 0;
+}
+
+/// Buefy Tabs
+
+.tabBack {
+  padding: 2em;
+  margin: 2em;
+  background-color: #FFFFFF;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+  border-radius: 5px;
+}
+
+.success nav.tabs {
+  background: linear-gradient(60deg, #66bb6a, #43a047);
+  box-shadow: 0 12px 20px -10px rgba(76, 175, 80, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(76, 175, 80, 0.2);
+}
+
+.fret nav.tabs {
+  background: linear-gradient(60deg, #9c27b0, #7b1fa2);
+  box-shadow: 0 12px 20px -10px rgba(156, 39, 176, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(156, 39, 176, 0.2);
+}
+
+.danger nav.tabs {
+  background: linear-gradient(60deg, #ef5350, #e53935);
+  box-shadow: 0 12px 20px -10px rgba(244, 67, 54, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(244, 67, 54, 0.2);
+}
+
+.warning nav.tabs {
+  background: linear-gradient(60deg, #ffa726, #fb8c00);
+  box-shadow: 0 12px 20px -10px rgba(255, 152, 0, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(255, 152, 0, 0.2);
+}
+
+.info nav.tabs {
+  background: linear-gradient(60deg, #26c6da, #00acc1);
+  box-shadow: 0 12px 20px -10px rgba(0, 188, 212, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(0, 188, 212, 0.2);
+}
+
+nav.tabs {
+  border-radius: 5px;
+  padding: 0.5em;
+  margin-top: -3.5em;
+}
+nav.tabs.is-toggle ul {
+  margin-left: 2em;
+}
+nav.tabs.is-toggle ul li {
+  padding: 0.2em;
+  margin: 0.5em;
+}
+nav.tabs.is-toggle ul li.is-active {
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: none;
+  border-radius: 5px;
+}
+nav.tabs.is-toggle ul li.is-active a {
+  background-color: transparent;
+  border-color: transparent;
+  color: white;
+  z-index: 1;
+}
+nav.tabs.is-toggle ul li.is-active a:hover {
+  color: #ffffff !important;
+}
+nav.tabs.is-toggle ul li a {
+  background-color: transparent;
+  border-color: transparent;
+  color: white;
+  z-index: 1;
+}
+nav.tabs.is-toggle ul li a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-color: transparent;
+  border-radius: 5px;
+  color: #ffffff !important;
+  z-index: 1;
+}

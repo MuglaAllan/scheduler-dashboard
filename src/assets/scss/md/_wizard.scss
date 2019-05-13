@@ -1,0 +1,58 @@
+#spinner {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 30px;
+  width: 6%;
+}
+
+#loading {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: 9999999999;
+  overflow: hidden;
+  width:100%;
+}
+
+label.permitStep3Label {
+  text-align: left !important;
+}
+
+div.vehicleDetails {
+  padding-left: 1em;
+  padding-bottom: 1em;
+}
+
+button.tableBtn {
+  float: left;
+  margin-top: -0.4em !important;
+}
+
+div.display-33 {
+  width: 33.3333%;
+  text-align: left !important;
+}
+
+div.display-50 {
+  width: 50%;
+  text-align: left !important;
+}
+
+table.issueConditions {
+  width:95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h4.rightText {
+  text-align: right;
+}
+
+th.sortHover:Hover {
+  cursor: pointer;
+}
+
+tr.highlightHover:Hover {
+  background-color: #F4F6F7;
+}

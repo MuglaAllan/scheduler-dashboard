@@ -1,0 +1,102 @@
+div.item-tag {
+  margin-top: -0.3em !important;
+}
+
+.vdp-datepicker__calendar .cell.selected {
+  background-color: rgb(76, 175, 80) !important;
+  color: #ffffff;
+}
+
+h3.scheduleH3 {
+  margin-bottom: -0.9em !important;
+}
+
+div.scheduleDatePickerContainer {
+  width: 50%;
+  margin-left: 1.2em;
+}
+
+div.scheduleElementEmpty {
+  height: 3em;
+  width: 11em;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+
+div.scheduleElement {
+  width: 11em;
+  border: 1px solid #dcdcdc;
+  border-radius: 4px;
+  color: #ffffff;
+}
+
+div.scheduleElementP30 {
+  background: linear-gradient(60deg, #66bb6a, #43a047);
+}
+
+div.scheduleElementVrs {
+  background: linear-gradient(60deg, #ffa726, #fb8c00);
+}
+
+div.scheduleElement1 {
+  height: 3em;
+}
+
+div.scheduleElement2 {
+  height: 6em;
+}
+
+div.scheduleElement4 {
+  height: 12em;
+}
+
+div.scheduleElement6 {
+  height: 18em;
+}
+
+div.scheduleElement16 {
+  height: 48em;
+}
+
+div.scheduleElement22 {
+  height: 66em;
+}
+
+div.scheduleElement1:hover,
+div.scheduleElement2:hover,
+div.scheduleElement4:hover,
+div.scheduleElement6:hover,
+div.scheduleElement16:hover{
+  border: 1px solid #8b8b8b;
+  cursor: pointer;
+}
+
+div.schedule-entry {
+  padding: 2px 0 0 5px;
+  font-size: 9pt;
+}
+
+li.line-item {
+  padding: 0 !important;
+}
+
+.schedulerContainer {
+  width: 22em !important;
+}
+
+.datePickerCss {
+  position: absolute !important;
+}
+
+hr.scheduleSplit {
+  margin: 2em 0 2em 0;
+}
+
+input[name="ddlSchedulerDate"]:disabled {
+  border-bottom: #FFFFFF !important;
+}
+
+select.scheduleSelect {
+  -webkit-appearance: none;
+  appearance: none;
+}

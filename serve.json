@@ -1,0 +1,6 @@
+{
+  "public": "dist",
+  "rewrites": [
+    { "source": "/!(static/**)", "destination": "/index.html" }
+  ]
+}
